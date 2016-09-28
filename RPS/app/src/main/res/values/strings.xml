@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RPS</string>
+    <string name="button1">Shoot</string>
+</resources>
