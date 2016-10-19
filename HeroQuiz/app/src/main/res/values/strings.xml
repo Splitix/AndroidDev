@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HeroQuiz</string>
+    <string name="second_title">Which super hero are you?</string>
+    <string name="second_nameField">Enter your name</string>
+    <string name="second_ageField">Enter your age</string>
+    <string name="second_speedField">Do you like to run fast?</string>
+    <string name="second_flyField">Do you want to fly?</string>
+    <string name="second_richField">Do you want to be rich?</string>
+    <string name="second_yes">Yes</string>
+    <string name="second_no">No</string>
+</resources>

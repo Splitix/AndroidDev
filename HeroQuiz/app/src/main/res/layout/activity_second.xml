@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_second"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.exetxstate.heroquiz.SecondActivity">
+
+        <TextView
+            android:id="@+id/second_titleId"
+            android:text="@string/second_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/second_nameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/second_titleId"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="35dp"
+            android:hint="@string/second_nameField" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:layout_below="@+id/second_nameId"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp"
+            android:id="@+id/editText2"
+            android:hint="@string/second_ageField" />
+
+        <TextView
+            android:id="@+id/second_speedId"
+            android:text="@string/second_speedField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/second_speedRadioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_speedId"
+            android:layout_alignStart="@+id/second_speedId">
+
+            <RadioButton
+                android:id="@+id/second_speedYes"
+                android:text="@string/second_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/second_speedNo"
+                android:text="@string/second_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/second_flyId"
+            android:text="@string/second_flyField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_speedRadioGroupId"
+            android:layout_alignStart="@+id/second_speedRadioGroupId"
+            android:layout_marginTop="31dp"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/second_flyRadioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_flyId"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/second_flyYes"
+                android:text="@string/second_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/second_flyNo"
+                android:text="@string/second_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/second_richId"
+            android:text="@string/second_richField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:textSize="18sp"
+            android:layout_below="@+id/second_flyRadioGroupId"
+            android:layout_alignStart="@+id/second_flyId" />
+
+        <RadioGroup
+            android:id="@+id/second_richRadioGroupId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/second_richId"
+            android:layout_alignParentStart="true">
+
+            <RadioButton
+                android:id="@+id/second_richYes"
+                android:text="@string/second_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:id="@+id/second_richNo"
+                android:text="@string/second_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>
