@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MovieList</string>
+    <string name="movie_desc">This movie is out now!</string>
+</resources>

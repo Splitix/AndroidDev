@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginRight="16dp"
+    android:background="#C5CAE9" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp" >
+
+
+        <ImageView
+            android:id="@+id/movie_iconId"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/movie_icon"
+            android:layout_marginStart="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/movie_titleId"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/movie_iconId"
+            android:layout_marginStart="26dp"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/movie_yearId"
+            android:text="2016"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/movie_titleId"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/movie_descId"
+            android:text="@string/movie_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/movie_iconId"
+            android:layout_alignStart="@+id/movie_titleId" />
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

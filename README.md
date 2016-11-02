@@ -16,3 +16,9 @@ HeroQuiz is an android app that allows the user to answer a few questions to det
 -RadioGroups / RadioButtons <br />
 -onClickListeners <br \>
 -Passing data from one activity to another <br />
+
+# MovieList
+MovieList displays a list of movies that are currently on the most popular list. This app takes a API response and sorts the information using a RecyclerView and CardView. <br />
+-RecyclerView <br />
+-CardView <br />
+-API Response <br />
